@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+.navbar {
+    background-color: #35424a;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar ul li a {
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    background-color: #4d626e; /* Color al pasar el mouse */
+}
+
+.dropdown {
+    position: relative; /* Necesario para posicionar el contenido del dropdown */
+}
+
+.dropdown-content {
+    display: none; /* Oculta el contenido del dropdown por defecto */
+    position: absolute; /* Posiciona el contenido en relación al padre */
+    background-color: #2a343a; /* Fondo del dropdown */
+    min-width: 160px; /* Ancho mínimo del dropdown */
+    box-shadow: 0px 8px 16px #54646e; /* Sombra para el dropdown */
+    z-index: 1; /* Asegura que el dropdown esté por encima de otros elementos */
+    
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255); /* Color del texto en el dropdown */
+    padding: 12px 16px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Hace que cada enlace ocupe toda la línea */
+}
+
+.dropdown-content a:hover {
+    background-color: #5b6b75; /* Color al pasar el mouse sobre los enlaces del dropdown */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Muestra el contenido del dropdown al pasar el mouse sobre el elemento padre */
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Las cards estarán en columna */
+    align-items: flex-start; /* Alineación a la izquierda */
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff; /* Fondo blanco para las cards */
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Bordes más redondeados */
+    margin-bottom: 20px; /* Espacio entre las cards */
+    padding: 20px;
+    width: 700px; /* Ancho fijo para las cards */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra más pronunciada */
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #333; /* Color del título */
+}
+
+.card p {
+    line-height: 1.6; /* Mejora la legibilidad del texto */
+}
+
