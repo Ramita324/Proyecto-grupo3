@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+.navbar {
+    background-color: #35424a;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.navbar ul li a {
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    color: #6bb1da; /* Color al pasar el mouse */
+}
+
+.dropdown {
+    position: relative; /* Necesario para posicionar el contenido del dropdown */
+}
+
+.dropdown-content {
+    display: none; /* Oculta el contenido del dropdown por defecto */
+    position: absolute; /* Posiciona el contenido en relación al padre */
+    background-color: #2a343a; /* Fondo del dropdown */
+    min-width: 160px; /* Ancho mínimo del dropdown */
+    box-shadow: 0px 8px 16px #54646e; /* Sombra para el dropdown */
+    z-index: 1; /* Asegura que el dropdown esté por encima de otros elementos */
+    
+}
+
+.dropdown-content a {
+    color: rgb(255, 255, 255); /* Color del texto en el dropdown */
+    padding: 12px 16px; /* Espaciado interno */
+    text-decoration: none; /* Sin subrayado */
+    display: block; /* Hace que cada enlace ocupe toda la línea */
+}
+
+.dropdown-content a:hover {
+    background-color: #5b6b75; /* Color al pasar el mouse sobre los enlaces del dropdown */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Muestra el contenido del dropdown al pasar el mouse sobre el elemento padre */
+}
+
+
+.contenido {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    display: flex; /* Usamos flexbox para alinear texto e imagen */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 20px; /* Espacio entre las cards */
+}
+
+.texto {
+    flex-grow: 1; /* Permite que el texto ocupe el espacio disponible */
+}
+
+.imagen {
+    width: 100px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    margin-left: 15px; /* Espacio entre texto e imagen */
+}
+
+.boton-instagram {
+    margin-left: 10px; /* Espacio entre la imagen y el botón */
+}
+
+.logo-instagram {
+    width: 30px; /* Ajusta el tamaño del logo de Instagram */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
