@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+.navbar a:hover {
+    background-color: #76bdc7; /* Cambia el color de fondo al pasar el mouse */
+    transform: translateY(-5px); /* Desliza hacia arriba */
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; /* Las cards estarán en columna */
+    align-items: flex-start; /* Alineación a la izquierda */
+    padding: 20px;
+}
+
+#banner {
+    color: #ffffff;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    height: 90vh; /* Altura del banner (90% de la altura de la ventana) */
+    background-image: url("fondo.jpg"); /* Imagen de fondo */
+    filter: grayscale(100%); /* Efecto blanco y negro */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    background-size: cover; /* Cubrir todo el contenedor */
+    background-position: center; /* Centrar la imagen */
+    transition: filter 0.5s ease; /* Transición suave para el efecto hover */
+}
+
+#banner:hover {
+    filter: grayscale(0%); /* Al pasar el mouse, quita el filtro de escala de grises */
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.contenido {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+p, ul {
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+
+ul {
+    padding-left: 20px; /* Espacio a la izquierda para listas */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
