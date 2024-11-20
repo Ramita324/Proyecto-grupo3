@@ -1,15 +1,36 @@
- body {
+
+body {
+
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4; /* Color de fondo suave */
 }
 
-.navbar {
-    background-color: #333;
-    overflow: hidden;
-
+header {
+    background-color: #333; /* Fondo gris oscuro */
+    color: white;
+    padding: 8px;
+    text-align: center;
 }
+
+#pageTitle {
+  font-family: 'Roboto', sans-serif; /* Fuente sans-serif */
+  color: #fff; /* Texto blanco */
+  font-size: 3.5rem; /* Tamaño grande para el título */
+  margin: 0;
+  font-weight: 700; /* Negrita */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-transform: capitalize; /* Para capitalizar la primera letra de cada palabra */
+}
+
+    
+.navbar {
+    background-color: #5c5555;
+    overflow: hidden;
+    padding: 4px;
+}
+
 
 .navbar ul {
     list-style-type: none;
@@ -51,16 +72,14 @@
     justify-content: center; /* Centra horizontalmente el contenido */
     height: 90vh; /* Altura del banner (90% de la altura de la ventana) */
     background-image: url("fondo.jpg"); /* Imagen de fondo */
-    filter: grayscale(100%); /* Efecto blanco y negro */
+  
     background-repeat: no-repeat; /* No repetir la imagen */
     background-size: cover; /* Cubrir todo el contenedor */
     background-position: center; /* Centrar la imagen */
     transition: filter 0.5s ease; /* Transición suave para el efecto hover */
 }
 
-#banner:hover {
-    filter: grayscale(0%); /* Al pasar el mouse, quita el filtro de escala de grises */
-}
+
 
 
 * {
@@ -74,12 +93,6 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
 
 .contenido {
     max-width: 90%;
