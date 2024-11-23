@@ -67,7 +67,7 @@ header {
     align-items: center; /* Centra verticalmente el contenido */
     justify-content: center; /* Centra horizontalmente el contenido */
     height: 90vh; /* Altura del banner (90% de la altura de la ventana) */
-    background-image: url("virus.jpg"); /* Imagen de fondo */
+    background-image: url("images.jpg"); /* Imagen de fondo */
  
     background-repeat: no-repeat; /* No repetir la imagen */
     background-size: cover; /* Cubrir todo el contenedor */
