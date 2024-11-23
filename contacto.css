@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4; /* Color de fondo suave */
+}
+
+header {
+    background-color: #333; /* Fondo gris oscuro */
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+#pageTitle {
+  font-family: 'Roboto', sans-serif; /* Fuente sans-serif */
+  color: #fff; /* Texto blanco */
+  font-size: 3.5rem; /* Tamaño grande para el título */
+  margin: 0;
+  font-weight: 700; /* Negrita */
+  letter-spacing: 2px; /* Espaciado entre letras */
+  text-transform: capitalize; /* Para capitalizar la primera letra de cada palabra */
+}
+
+    
+.navbar {
+    background-color: #5c5555;
+    overflow: hidden;
+    padding: 4px;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave */
+}
+
+.navbar a:hover {
+   
+    transform: translateY(-5px); /* Desliza hacia arriba */
+}
+
+.contenido {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    display: flex; /* Usamos flexbox para alinear texto e imagen */
+    align-items: center; /* Centra verticalmente */
+    margin-bottom: 20px; /* Espacio entre las cards */
+}
+
+.texto {
+    flex-grow: 1; /* Permite que el texto ocupe el espacio disponible */
+}
+
+.imagen {
+    width: 100px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    margin-left: 15px; /* Espacio entre texto e imagen */
+}
+
+.boton-instagram {
+    margin-left: 10px; /* Espacio entre la imagen y el botón */
+}
+
+.logo-instagram {
+    width: 30px; /* Ajusta el tamaño del logo de Instagram */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
